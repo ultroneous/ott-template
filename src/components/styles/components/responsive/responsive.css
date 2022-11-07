@@ -1,0 +1,109 @@
+/* for phones */
+@media (min-width: 320px) and (max-width: 768px) {
+  .cardBox {
+    width: 100%;
+    border-radius: 1.4rem;
+  }
+  .ottLogo {
+    width: 7rem;
+    border-radius: 1.4rem 0 1.4rem 0;
+  }
+
+  .cardImage {
+    width: 100%;
+  }
+  .cardBody {
+    height: 17rem;
+    padding: 0.5rem 1.5rem 1rem;
+  }
+  .titleImage img {
+    width: 10rem;
+    margin: 0 0 1rem 0;
+  }
+  .playButton {
+    padding: 0;
+    width: 5.5rem;
+    height: 2.2rem;
+  }
+  .playButton img {
+    width: 0.7rem;
+    margin: 0;
+  }
+  .playButton h6 {
+    font-size: 0.8rem;
+  }
+  .movieFeatures {
+    flex-wrap: wrap;
+  }
+  .movieFeatures span {
+    font-size: 0.8rem;
+    margin: 0 1.5rem 0.5rem 0;
+  }
+  .cardSummary {
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+}
+
+/* for tablets */
+@media (min-width: 768px) and (max-width: 1080px) {
+  .cardCarousel {
+    justify-content: center;
+    align-items: center;
+  }
+  .cardBox {
+    width: 100%;
+    /* height: 60vh; */
+    margin: 6rem 0 0 0;
+  }
+  .ottLogo {
+    height: 4rem;
+    left: 0;
+    border-radius: 2.7rem 0 2.7rem 0;
+  }
+
+  .ottLogo img {
+    width: 5rem;
+  }
+  .cardImage {
+    width: 100%;
+  }
+  .cardBody {
+    height: 18rem;
+    padding: 1rem 2.5rem 1rem;
+  }
+
+  .titleImage img {
+    margin: 0 0 1rem 0;
+  }
+  .playButton img {
+    width: 0.8rem;
+    margin: 0;
+  }
+  .playButton h6 {
+    font-size: 1rem;
+  }
+  .movieFeatures span {
+    font-size: 1.25rem;
+  }
+  .cardSummary {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+}
+
+/* for big screens */
+@media (min-width: 1600px) and (max-width: 1850px) {
+  .cardBox {
+    width: 55.4rem;
+  }
+  .ottLogo {
+    top: -1.9px;
+    left: -0.3px;
+    height: 3.2rem;
+    border-radius: 4rem 0 4rem 0;
+  }
+  .cardImage {
+    width: 55.3rem;
+  }
+}

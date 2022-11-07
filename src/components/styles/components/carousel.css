@@ -1,0 +1,58 @@
+.backgroundSlide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+  display: flex;
+}
+
+.backgroundSlide img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.fade-in-image {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .backgroundSlide img {
+    width: auto;
+    height: 100vh;
+    margin: 0 0 0 -50vw;
+  }
+  .carouselRow {
+    height: 78vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1080px) {
+  .backgroundSlide img {
+    width: auto;
+    height: 100vh;
+    margin: 0 0 0 -50vw;
+  }
+  .carouselRow {
+    height: 78vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1850px) {
+  .carouselRow {
+    height: 82vh;
+    display: flex;
+    align-items: center;
+  }
+}

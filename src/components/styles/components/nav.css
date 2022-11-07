@@ -1,0 +1,39 @@
+#webNav {
+  /* border: 1px solid red; */
+  padding: 2rem 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.395) 80%
+  );
+}
+
+.centerMenuWeb {
+  margin: 0 auto;
+}
+
+.navLinkMenu {
+  color: white !important;
+  padding: 0.5rem 0 !important;
+  margin: 0 1.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+.navLinkMenu:nth-child(2) {
+  opacity: 1;
+  border-bottom: 2px solid white;
+  width: 3.5%;
+  height: 2.2rem;
+  padding: 0.5rem 0 0.1rem !important;
+  margin: 0 2.4rem 0 1.5rem;
+}
+
+.navRight img:nth-child(2) {
+  padding: 0 0 0 1rem;
+}
+
+.menuToggleBtn {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
