@@ -1,3 +1,18 @@
+<h1>StreamClick-Ott platform (Frontend)</h1>
+
+Introducing the StreamClick website for all those who love binge-watching and theater-like experiences. The screen has various elements of the Glass effect to give the users the feel of the theater. Also, it is an all-in-one platform where users can subscribe to multiple OTT platforms. You can access your favorite content and list content you want to enjoy later. 
+Also, stability and low buffering time are the utmost requirements for the OTT app, and React provides just that. Along with the Front-end, we give the back-end services like the admin panel development with the robust NodeJS platform. React has a vast supportive community, and the developers can construct the OTT platform in a shorter time thanks to isomorphic code development.
+
+
+![Sc-ott](https://user-images.githubusercontent.com/90691156/200322958-e3abcc5b-46b8-4a59-8932-14e13527d11e.PNG)
+
+
+<button>
+<a href="https://ott-template.vercel.app/">View Demo</a>
+
+</button>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
